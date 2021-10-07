@@ -8,6 +8,6 @@
         <title>Blogger</title>
     </head>    
     <body>
-hello 
+        <script src="./js/app.js"></script>
     </body>
 </html>
