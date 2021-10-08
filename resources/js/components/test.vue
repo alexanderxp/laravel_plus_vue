@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Hello, Vue + Laravel!</h2>
+        <h2>Hello, Vue + Laravel! 2</h2>
     </div>    
 </template>
 
