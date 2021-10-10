@@ -9,8 +9,7 @@
     </head>    
     <body>
         <div id="app">
-            <test></test>
-            <example-component></example-component>
+            <v-header></v-header>
         </div>
         <script src="./js/app.js"></script>
     </body>
