@@ -28,6 +28,9 @@ Vue.component('v-header', require('./components/Header.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+// styles
+ import "./assets/css/uikit.min.css"
+
 const app = new Vue({
     el: '#app',
 });
