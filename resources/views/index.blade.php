@@ -13,6 +13,8 @@
         <div id="app">
             <v-header></v-header>
         </div>
+        <script src="{{ asset('assets/js/uikit.min.js') }}"></script>
+        <script src="{{ asset('assets/js/uikit-icons.min.js') }}"></script>
         <script src="./js/app.js"></script>
     </body>
 </html>
