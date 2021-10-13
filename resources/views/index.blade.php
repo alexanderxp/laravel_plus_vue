@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-Compartible" content="ie=edge">
         <title>Blogger</title>
         <link rel="stylesheet" href="{{ asset('assets/css/uikit.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/uikit-rtl.min.css') }}">
     </head>    
     <body>
         <div id="app">
