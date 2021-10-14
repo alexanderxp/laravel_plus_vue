@@ -3,8 +3,9 @@
         <div class="uk-navbar-center">
 
             <ul class="uk-navbar-nav">
+<!--              class="uk-active"-->
                 <li><a href="#">Active</a></li>
-                <li><a href="#">Item</a></li>
+
             </ul>
 
         </div>

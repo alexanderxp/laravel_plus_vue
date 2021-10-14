@@ -2080,6 +2080,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Header"
 });
@@ -37653,9 +37654,7 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "uk-navbar-center" }, [
           _c("ul", { staticClass: "uk-navbar-nav" }, [
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Active")])]),
-            _vm._v(" "),
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Item")])])
+            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Active")])])
           ])
         ])
       ]
