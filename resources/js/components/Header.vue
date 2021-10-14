@@ -16,7 +16,16 @@
 
 <script>
     export default {
-        name: "Header"
+        data() {
+            return {
+                links: [
+                    {
+                        title: "Главная",
+                        href: "/"
+                    }
+                ]
+            }
+        }
     }
 </script>
 
