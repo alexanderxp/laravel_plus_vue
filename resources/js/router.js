@@ -12,7 +12,7 @@ const routes = [
     }
 ];
 
-export default new vueRouter( options: {
+export default new vueRouter({
     mode:"hystory",
     routes
  });
