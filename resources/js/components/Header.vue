@@ -4,7 +4,9 @@
 
             <ul class="uk-navbar-nav">
 <!--              class="uk-active"-->
-                <li><a href="#">Active</a></li>
+                <li v-for="link in links">
+                    <a :href="link.href">{{ link.title }}</a>
+                </li>
 
             </ul>
 
@@ -22,7 +24,11 @@
                     {
                         title: "Главная",
                         href: "/"
-                    }
+                    },
+                    {                        
+                        title: "Блог",    
+                        href: "/blog"          
+                    }   
                 ]
             }
         }
