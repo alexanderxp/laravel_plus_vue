@@ -11,3 +11,8 @@ const routes = [
         component: Index  
     }
 ];
+
+export default new vueRouter( options: {
+    mode:"hystory",
+    routes
+ });
