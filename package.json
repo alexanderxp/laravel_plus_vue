@@ -28,6 +28,7 @@
         "fsevents": "^2.3.2"
     },
     "dependencies": {
-        "fsevents": "^2.3.2"
+        "fsevents": "^2.3.2",
+        "vue-router": "^3.5.2"
     }
 }
