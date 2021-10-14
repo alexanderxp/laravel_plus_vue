@@ -2108,7 +2108,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_router__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -2139,7 +2138,7 @@ Vue.component('v-header', __webpack_require__(/*! ./components/Header.vue */ "./
 
 var app = new Vue({
   el: '#app',
-  router: (_router__WEBPACK_IMPORTED_MODULE_0___default())
+  router: _router__WEBPACK_IMPORTED_MODULE_0__["default"]
 });
 
 /***/ }),
@@ -49927,18 +49926,6 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
 /******/ 		};
 /******/ 	})();
 /******/ 	
