@@ -2103,8 +2103,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_router__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -2132,8 +2136,10 @@ Vue.component('v-header', __webpack_require__(/*! ./components/Header.vue */ "./
 // styles
 // import "./assets/css/uikit.min.css"
 
+
 var app = new Vue({
-  el: '#app'
+  el: '#app',
+  router: (_router__WEBPACK_IMPORTED_MODULE_0___default())
 });
 
 /***/ }),
@@ -2179,6 +2185,16 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/router.js":
+/*!********************************!*\
+  !*** ./resources/js/router.js ***!
+  \********************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/alexander/Документы/GitHub/laravel_plus_vue/resources/js/router.js: Unexpected token, expected \",\" (15:37)\n\n\u001b[0m \u001b[90m 13 |\u001b[39m ]\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m \u001b[36mnew\u001b[39m vueRouter( options\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m     mode\u001b[33m:\u001b[39m\u001b[32m\"hystory\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m     routes\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:541:17)\n    at Parser.raiseWithData (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:534:17)\n    at Parser.raise (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:495:17)\n    at Parser.unexpected (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:3550:16)\n    at Parser.expect (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:3524:28)\n    at Parser.parseExprList (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:12627:14)\n    at Parser.parseNewArguments (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:12217:25)\n    at Parser.parseNew (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:12211:10)\n    at Parser.parseNewOrNewTarget (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:12197:17)\n    at Parser.parseExprAtom (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11758:21)\n    at Parser.parseExprSubscripts (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11414:23)\n    at Parser.parseUpdate (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11394:21)\n    at Parser.parseMaybeUnary (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11369:23)\n    at Parser.parseMaybeUnaryOrPrivate (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11183:61)\n    at Parser.parseExprOps (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11190:23)\n    at Parser.parseMaybeConditional (/home/alexander/Документы/GitHub/laravel_plus_vue/node_modules/@babel/parser/lib/index.js:11160:23)");
 
 /***/ }),
 
@@ -49911,6 +49927,18 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
 /******/ 		};
 /******/ 	})();
 /******/ 	

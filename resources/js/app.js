@@ -31,6 +31,9 @@ Vue.component('v-header', require('./components/Header.vue').default);
 // styles
 // import "./assets/css/uikit.min.css"
 
+import router from "./router";
+
 const app = new Vue({
     el: '#app',
+    router
 });
