@@ -1,5 +1,5 @@
 <template>
-    <div>                   
+    <div>              
         <h1>home page</h1>
     </div>
 </template>
@@ -8,7 +8,7 @@
 <script>
 
     export default {
-	name: "Index"
+        name: "Index"
     }
 
 </script>

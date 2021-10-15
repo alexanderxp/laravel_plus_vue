@@ -7,12 +7,12 @@ import Index from "./views/Index";
 
 const routes = [
     { 
-        path: '/', 
+        path: "/", 
         component: Index  
     }
 ];
 
 export default new vueRouter({
-    mode:"hystory",
+    mode:"history",
     routes
  });
