@@ -7,7 +7,7 @@ import Index from "./views/Index";
 
 const routes = [
     { 
-        path: "/", 
+        path: "/test", 
         component: Index  
     }
 ];
