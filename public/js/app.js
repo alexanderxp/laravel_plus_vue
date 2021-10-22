@@ -37987,7 +37987,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", { staticClass: "uk-text-meta uk-margin-remove-top" }, [
                   _c("time", { attrs: { datetime: "2016-04-01T19:00" } }, [
-                    _vm._v("April 0,2016")
+                    _vm._v("April 01,2016")
                   ])
                 ])
               ])
