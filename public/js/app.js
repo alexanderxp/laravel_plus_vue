@@ -37893,11 +37893,15 @@ var render = function() {
           "ul",
           { staticClass: "uk-navbar-nav" },
           _vm._l(_vm.links, function(link) {
-            return _c("li", [
-              _c("a", { attrs: { href: link.href } }, [
-                _vm._v(_vm._s(link.title))
-              ])
-            ])
+            return _c(
+              "li",
+              [
+                _c("router-link", { attrs: { to: link.href } }, [
+                  _vm._v(_vm._s(link.title))
+                ])
+              ],
+              1
+            )
           }),
           0
         )
