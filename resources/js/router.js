@@ -4,11 +4,16 @@ import Vue from 'vue';
 Vue.use(vueRouter);
 
 import Index from "./views/Index";
+import Blog from "./views/Blog";
 
 const routes = [
     { 
-        path: "/test", 
+        path: "/",          
         component: Index  
+    },
+    {
+        path: "/blog",
+        component: Blog
     }
 ];
 

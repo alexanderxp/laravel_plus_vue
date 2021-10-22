@@ -2225,13 +2225,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 /* harmony import */ var _views_Index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/Index */ "./resources/js/views/Index.vue");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './views/Blog'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
+
 var routes = [{
-  path: "/test",
+  path: "/",
   component: _views_Index__WEBPACK_IMPORTED_MODULE_2__["default"]
+}, {
+  path: "/blog",
+  component: Object(function webpackMissingModule() { var e = new Error("Cannot find module './views/Blog'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: "history",
