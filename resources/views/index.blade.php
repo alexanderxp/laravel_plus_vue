@@ -12,7 +12,7 @@
     <body>
         <div id="app">
             <v-header></v-header>
-            <main style="...">
+            <main style="margin-top: 20px;">
                 <div class="uk-container">
                     <router-view></router-view>
                 </div>
