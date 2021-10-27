@@ -44,7 +44,10 @@ class PostsController extends Controller
               "title"=>["requires"],        
               "body"=>["required"]              
            ]
-        );         
+        );     
+        if($validator->fails()) {
+            return $validator->messages();
+        }     
     }
 
     /**
