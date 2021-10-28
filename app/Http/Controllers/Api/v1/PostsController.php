@@ -48,6 +48,16 @@ class PostsController extends Controller
         if($validator->fails()) {
             return $validator->messages();
         }     
+
+        $post = Post::create([
+            "title"=>$request->title,
+            "body"=> $request-body
+         ]);
+
+         return [
+            "status" => true,
+            "post"=> $post
+         ];
     }
 
     /**
