@@ -75,7 +75,14 @@ class PostsController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::find($id);
+        if(!$post){
+            return response()->json([
+                "status" => false,
+                "message" => "Post not found"
+            ])->setStatusCode( code: 404 );
+        }
+        return $post; 
     }
 
     /**
