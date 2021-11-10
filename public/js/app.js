@@ -2139,6 +2139,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Index"
 });
@@ -37962,6 +37963,8 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
+      _c("div", { attrs: { "uk-spinner": "" } }),
+      _vm._v(" "),
       _c("div", { staticClass: "uk-card uk-card-default uk-width-1-2@m" }, [
         _c("div", { staticClass: "uk-card-header" }, [
           _c(

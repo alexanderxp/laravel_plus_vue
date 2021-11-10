@@ -1,5 +1,6 @@
 <template>
-    <div>              
+    <div>     
+        <div uk-spinner></div>         
         <div class="uk-card uk-card-default uk-width-1-2@m">
             <div class="uk-card-header">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
