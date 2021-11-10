@@ -1,5 +1,5 @@
 <template>
-    <div>     
+    <div style="display:flex; flex-wrap: wrap;">     
         <div uk-spinner></div>         
         <div class="uk-card uk-card-default uk-width-1-2@m">
             <div class="uk-card-header">

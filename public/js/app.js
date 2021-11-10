@@ -37962,59 +37962,67 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { attrs: { "uk-spinner": "" } }),
-      _vm._v(" "),
-      _c("div", { staticClass: "uk-card uk-card-default uk-width-1-2@m" }, [
-        _c("div", { staticClass: "uk-card-header" }, [
-          _c(
-            "div",
-            {
-              staticClass: "uk-grid-small uk-flex-middle",
-              attrs: { "uk-grid": "" }
-            },
-            [
-              _c("div", { staticClass: "uk-widh-auto" }, [
-                _c("img", {
-                  staticClass: "uk-border-circle",
-                  attrs: { widh: "40", heigh: "40", src: "images/avatar.jpg" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "uk-width-expand" }, [
-                _c(
-                  "h3",
-                  { staticClass: "uk-card-title uk-margin-remove-bottom" },
-                  [_vm._v("Title")]
-                ),
-                _vm._v(" "),
-                _c("p", { staticClass: "uk-text-meta uk-margin-remove-top" }, [
-                  _c("time", { attrs: { datetime: "2016-04-01T19:00" } }, [
-                    _vm._v("April 01,2016")
-                  ])
-                ])
-              ])
-            ]
-          )
-        ]),
+    return _c(
+      "div",
+      { staticStyle: { display: "flex", "flex-wrap": "wrap" } },
+      [
+        _c("div", { attrs: { "uk-spinner": "" } }),
         _vm._v(" "),
-        _c("div", { staticClass: "uk-card-body" }, [
-          _c("p", [
-            _vm._v(
-              "Lora Lora color , commit abstract tell, many many ingredient.\n                Full HD resolution. Autosave button on.\n            "
+        _c("div", { staticClass: "uk-card uk-card-default uk-width-1-2@m" }, [
+          _c("div", { staticClass: "uk-card-header" }, [
+            _c(
+              "div",
+              {
+                staticClass: "uk-grid-small uk-flex-middle",
+                attrs: { "uk-grid": "" }
+              },
+              [
+                _c("div", { staticClass: "uk-widh-auto" }, [
+                  _c("img", {
+                    staticClass: "uk-border-circle",
+                    attrs: { widh: "40", heigh: "40", src: "images/avatar.jpg" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "uk-width-expand" }, [
+                  _c(
+                    "h3",
+                    { staticClass: "uk-card-title uk-margin-remove-bottom" },
+                    [_vm._v("Title")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "uk-text-meta uk-margin-remove-top" },
+                    [
+                      _c("time", { attrs: { datetime: "2016-04-01T19:00" } }, [
+                        _vm._v("April 01,2016")
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "uk-card-body" }, [
+            _c("p", [
+              _vm._v(
+                "Lora Lora color , commit abstract tell, many many ingredient.\n                Full HD resolution. Autosave button on.\n            "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "uk-card-footer" }, [
+            _c(
+              "a",
+              { staticClass: "uk-button uk-button-text", attrs: { href: "#" } },
+              [_vm._v("Read more")]
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "uk-card-footer" }, [
-          _c(
-            "a",
-            { staticClass: "uk-button uk-button-text", attrs: { href: "#" } },
-            [_vm._v("Read more")]
-          )
         ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
