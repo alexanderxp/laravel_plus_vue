@@ -1,6 +1,6 @@
 <template>
     <div style="display:flex; flex-wrap: wrap;">     
-        <div uk-spinner></div>         
+        <spin></spin>         
         <div class="uk-card uk-card-default uk-width-1-2@m">
             <div class="uk-card-header">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -29,11 +29,12 @@
 
 
 <script>
-
+    import Spin from "../components/Spin";
     export default {
-        name: "Index"
+        components: {
+            Spin
+        }
     }
-
 </script>
 
 <style scoped>
