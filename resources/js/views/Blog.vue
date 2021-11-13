@@ -16,15 +16,15 @@
                         </div>
                     </div>
                 </div>
-            <div class="uk-card-body">
-                <p>Lora Lora color , commit abstract tell, many many ingredient.
-                    Full HD resolution. Autosave button on.
-                </p>
+                <div class="uk-card-body">
+                    <p>Lora Lora color , commit abstract tell, many many ingredient.
+                        Full HD resolution. Autosave button on.
+                    </p>
+                </div>
+                <div class="uk-card-footer">
+                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                </div>
             </div>
-            <div class="uk-card-footer">
-                <a href="#" class="uk-button uk-button-text">Read more</a>
-            </div>
-        
         </div>
     </div>
 </template>
