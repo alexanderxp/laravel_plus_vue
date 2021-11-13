@@ -1,6 +1,6 @@
 <template>
     <div style="display:flex; flex-wrap: wrap;">     
-        <spin></spin>         
+        <spin v-if="loading"></spin>         
         <div class="uk-card uk-card-default uk-width-1-2@m">
             <div class="uk-card-header">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -33,7 +33,10 @@
     export default {
         components: {
             Spin
-        }
+        },
+        data: () => ({           
+           loading: true   
+        })                       
     }
 </script>
 

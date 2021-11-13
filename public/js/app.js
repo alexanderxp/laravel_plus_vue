@@ -2167,6 +2167,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     Spin: _components_Spin__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      loading: true
+    };
   }
 });
 
@@ -38505,7 +38510,7 @@ var render = function() {
   return _c(
     "div",
     { staticStyle: { display: "flex", "flex-wrap": "wrap" } },
-    [_c("spin"), _vm._v(" "), _vm._m(0)],
+    [_vm.loading ? _c("spin") : _vm._e(), _vm._v(" "), _vm._m(0)],
     1
   )
 }
