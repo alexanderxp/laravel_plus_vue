@@ -2175,7 +2175,9 @@ __webpack_require__.r(__webpack_exports__);
     return {
       loading: true
     };
-  }
+  },
+  mounted: function mounted() {},
+  methods: {}
 });
 
 /***/ }),

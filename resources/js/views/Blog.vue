@@ -39,7 +39,13 @@
         },
         data: () => ({           
            loading: true   
-        })                       
+        }),
+        mounted() {     
+                         
+        },                 
+        methods: {        
+                           
+        }                                     
     }
 </script>
 
