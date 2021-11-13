@@ -1,6 +1,7 @@
 <template>
     <div style="display:flex; flex-wrap: wrap;">     
-        <spin v-if="loading"></spin>         
+        <spin v-if="loading"></spin>
+        <div v-else>      
         <div class="uk-card uk-card-default uk-width-1-2@m">
             <div class="uk-card-header">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -23,6 +24,7 @@
             <div class="uk-card-footer">
                 <a href="#" class="uk-button uk-button-text">Read more</a>
             </div>
+        
         </div>
     </div>
 </template>
