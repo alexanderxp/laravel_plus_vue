@@ -2176,7 +2176,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      loading: true
+      loading: true,
+      posts: []
     };
   },
   mounted: function mounted() {
@@ -2184,8 +2185,11 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     loadPosts: function loadPosts() {
+      var _this = this;
+
       axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/posts').then(function (res) {
-        console.log(res.data);
+        _this.posts = res.data;
+        _this.loading = false;
       });
     }
   }

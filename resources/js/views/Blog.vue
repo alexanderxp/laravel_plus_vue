@@ -39,7 +39,8 @@
             Spin
         },
         data: () => ({           
-           loading: true   
+           loading: true,
+           posts: [] 
         }),
         mounted() {     
             this.loadPosts()                 
@@ -48,7 +49,8 @@
             loadPosts(){
                 axios.get('/api/posts')
                 .then( res => { 
-                    console.log(res.data) 
+                    this.posts = res.data;
+                    this.loading = false;
                 })
            }              
         }                                     
