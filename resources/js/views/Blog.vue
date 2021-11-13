@@ -1,5 +1,5 @@
 <template>
-    <div style="display:flex; flex-wrap: wrap;">     
+    <div style="display:flex; flex-wrap: wrap;">   
         <spin v-if="loading"></spin>
         <div v-else>      
             <div class="uk-card uk-card-default uk-width-1-2@m">
@@ -16,7 +16,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             <div class="uk-card-body">
                 <p>Lora Lora color , commit abstract tell, many many ingredient.
                     Full HD resolution. Autosave button on.
