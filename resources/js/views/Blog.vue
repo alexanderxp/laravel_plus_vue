@@ -49,7 +49,9 @@
                 axios.get('/api/posts')
                 .then( res => { 
                     this.posts = res.data;
-                    this.loading = false;
+                    setTimeout( () => {
+                       this.loading = false;
+                    }, 500)
                 })
            }              
         }                                     

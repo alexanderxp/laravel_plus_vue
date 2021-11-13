@@ -2188,7 +2188,9 @@ __webpack_require__.r(__webpack_exports__);
 
       axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/posts').then(function (res) {
         _this.posts = res.data;
-        _this.loading = false;
+        setTimeout(function () {
+          _this.loading = false;
+        }, 500);
       });
     }
   }
