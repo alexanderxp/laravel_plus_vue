@@ -80,7 +80,7 @@ class PostsController extends Controller
             return response()->json([
                 "status" => false,
                 "message" => "Post not found"
-            ])->setStatusCode( code: 404 );
+                ])->setStatusCode(404);
         }
         return $post; 
     }
