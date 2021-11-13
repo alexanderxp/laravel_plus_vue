@@ -2133,6 +2133,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _components_Spin__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Spin */ "./resources/js/components/Spin.vue");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -2167,6 +2169,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     Spin: _components_Spin__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -2176,8 +2179,16 @@ __webpack_require__.r(__webpack_exports__);
       loading: true
     };
   },
-  mounted: function mounted() {},
-  methods: {}
+  mounted: function mounted() {
+    this.loadPosts();
+  },
+  methods: {
+    loadPosts: function loadPosts() {
+      axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/posts').then(function (res) {
+        console.log(res.data);
+      });
+    }
+  }
 });
 
 /***/ }),

@@ -33,6 +33,7 @@
 
 <script>
     import Spin from "../components/Spin";
+    import axios from 'axios';
     export default {
         components: {
             Spin
@@ -41,10 +42,15 @@
            loading: true   
         }),
         mounted() {     
-                         
+            this.loadPosts()                 
         },                 
         methods: {        
-                           
+            loadPosts(){
+                axios.get('/api/posts')
+                .then( res => { 
+                    console.log(res.data) 
+                })
+           }              
         }                                     
     }
 </script>
