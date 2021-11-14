@@ -38526,12 +38526,12 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticStyle: { display: "flex", "flex-wrap": "wrap" } },
     [
       _vm.loading
         ? _c("spin")
         : _c(
             "div",
+            { staticStyle: { display: "flex", "flex-wrap": "wrap" } },
             _vm._l(_vm.posts, function(post) {
               return _c(
                 "div",
