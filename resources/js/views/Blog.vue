@@ -1,7 +1,7 @@
 <template>
-    <div style="display:flex; flex-wrap: wrap;">   
+    <div>   
         <spin v-if="loading"></spin>
-        <div v-else>      
+        <div style="display:flex; flex-wrap: wrap;" v-else>      
             <div class="uk-card uk-card-default uk-width-1-2@m" v-for="post in posts">
                 <div class="uk-card-header">
                     <div class="uk-grid-small uk-flex-middle" uk-grid>
