@@ -2163,10 +2163,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -38534,76 +38530,68 @@ var render = function() {
     [
       _vm.loading
         ? _c("spin")
-        : _c("div", [
-            _c(
-              "div",
-              { staticClass: "uk-card uk-card-default uk-width-1-2@m" },
-              [
-                _c("div", { staticClass: "uk-card-header" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "uk-grid-small uk-flex-middle",
-                      attrs: { "uk-grid": "" }
-                    },
-                    [
-                      _c("div", { staticClass: "uk-widh-auto" }, [
-                        _c("img", {
-                          staticClass: "uk-border-circle",
-                          attrs: {
-                            widh: "40",
-                            heigh: "40",
-                            src: "images/avatar.jpg"
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "uk-width-expand" }, [
-                        _c(
-                          "h3",
-                          {
-                            staticClass: "uk-card-title uk-margin-remove-bottom"
-                          },
-                          [_vm._v("Title")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "p",
-                          { staticClass: "uk-text-meta uk-margin-remove-top" },
-                          [
-                            _c(
-                              "time",
-                              { attrs: { datetime: "2016-04-01T19:00" } },
-                              [_vm._v("April 01,2016")]
-                            )
-                          ]
-                        )
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "uk-card-body" }, [
-                  _c("p", [
-                    _vm._v(
-                      "Lora Lora color , commit abstract tell, many many ingredient.\n                    Full HD resolution. Autosave button on.\n                "
+        : _c(
+            "div",
+            _vm._l(_vm.posts, function(post) {
+              return _c(
+                "div",
+                { staticClass: "uk-card uk-card-default uk-width-1-2@m" },
+                [
+                  _c("div", { staticClass: "uk-card-header" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "uk-grid-small uk-flex-middle",
+                        attrs: { "uk-grid": "" }
+                      },
+                      [
+                        _c("div", { staticClass: "uk-width-expand" }, [
+                          _c(
+                            "h3",
+                            {
+                              staticClass:
+                                "uk-card-title uk-margin-remove-bottom"
+                            },
+                            [_vm._v(_vm._s(post.title))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "p",
+                            {
+                              staticClass: "uk-text-meta uk-margin-remove-top"
+                            },
+                            [
+                              _c(
+                                "time",
+                                { attrs: { datetime: "2016-04-01T19:00" } },
+                                [_vm._v(_vm._s(post.created_at))]
+                              )
+                            ]
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "uk-card-body" }, [
+                    _c("p", [_vm._v(_vm._s(post.body))])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "uk-card-footer" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "uk-button uk-button-text",
+                        attrs: { href: "#" }
+                      },
+                      [_vm._v("Read more")]
                     )
                   ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "uk-card-footer" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "uk-button uk-button-text",
-                      attrs: { href: "#" }
-                    },
-                    [_vm._v("Read more")]
-                  )
-                ])
-              ]
-            )
-          ])
+                ]
+              )
+            }),
+            0
+          )
     ],
     1
   )
