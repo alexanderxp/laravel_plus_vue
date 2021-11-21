@@ -23,7 +23,20 @@
 <script>
 
     export default {
-        name: "Post"
+        props: {
+            title: {
+                type: String,
+                default: "NULL"
+            },
+            body: {
+                type: String,
+                default: "NULL"
+            },
+            date: {
+                type: String,
+                default: "NULL"
+            },
+        }
     }
 
 </script>
